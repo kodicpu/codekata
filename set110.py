@@ -1,6 +1,6 @@
-num=int(input())
+numtobechecked=int(input())
 count=0
-while(num>0):
+while(numtobechecked>0):
     count+=1
-    num=num//10
+    numtobechecked=numtobechecked//10
 print(count)
