@@ -1,0 +1,5 @@
+b,e=input().split()
+b=int(b)
+e=int(e)
+result=pow(b,e)
+print(result)
