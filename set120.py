@@ -1,3 +1,5 @@
 number=int(input())
-for i in range(number,(5*number)+1,number):
-    print(i,end=" ")
+value=number
+for i in range(5):
+    print(value,end=" ")
+    value=value+number
