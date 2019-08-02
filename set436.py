@@ -1,5 +1,5 @@
 x,count = input(),0
 for i in x:
-  if ord(i)>=32 and ord(i)<=47:
-    count = count + 1
+  if (ord(i) not in range(65,90)) and (ord(i) not in range(97,123)) and (ord(i)!=32):
+    count+=1
 print(count)
